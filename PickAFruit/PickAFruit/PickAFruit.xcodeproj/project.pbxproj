@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33ECDE021CFB3B0A003A35BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECDE011CFB3B0A003A35BD /* AppDelegate.swift */; };
+		33ECDE041CFB3B0A003A35BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECDE031CFB3B0A003A35BD /* ViewController.swift */; };
+		33ECDE071CFB3B0A003A35BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ECDE051CFB3B0A003A35BD /* Main.storyboard */; };
+		33ECDE091CFB3B0A003A35BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33ECDE081CFB3B0A003A35BD /* Assets.xcassets */; };
+		33ECDE0C1CFB3B0A003A35BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33ECDE0A1CFB3B0A003A35BD /* LaunchScreen.storyboard */; };
+		33ECDE171CFB3B0A003A35BD /* PickAFruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECDE161CFB3B0A003A35BD /* PickAFruitTests.swift */; };
+		33ECDE221CFB3B0A003A35BD /* PickAFruitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ECDE211CFB3B0A003A35BD /* PickAFruitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33ECDE131CFB3B0A003A35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ECDDF61CFB3B0A003A35BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECDDFD1CFB3B0A003A35BD;
+			remoteInfo = PickAFruit;
+		};
+		33ECDE1E1CFB3B0A003A35BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33ECDDF61CFB3B0A003A35BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33ECDDFD1CFB3B0A003A35BD;
+			remoteInfo = PickAFruit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33ECDDFE1CFB3B0A003A35BD /* PickAFruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAFruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECDE011CFB3B0A003A35BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33ECDE031CFB3B0A003A35BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33ECDE061CFB3B0A003A35BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33ECDE081CFB3B0A003A35BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33ECDE0B1CFB3B0A003A35BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33ECDE0D1CFB3B0A003A35BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ECDE121CFB3B0A003A35BD /* PickAFruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAFruitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECDE161CFB3B0A003A35BD /* PickAFruitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAFruitTests.swift; sourceTree = "<group>"; };
+		33ECDE181CFB3B0A003A35BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33ECDE1D1CFB3B0A003A35BD /* PickAFruitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAFruitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33ECDE211CFB3B0A003A35BD /* PickAFruitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAFruitUITests.swift; sourceTree = "<group>"; };
+		33ECDE231CFB3B0A003A35BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33ECDDFB1CFB3B0A003A35BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE0F1CFB3B0A003A35BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE1A1CFB3B0A003A35BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ECDDF51CFB3B09003A35BD = {
+			isa = PBXGroup;
+			children = (
+				33ECDE001CFB3B0A003A35BD /* PickAFruit */,
+				33ECDE151CFB3B0A003A35BD /* PickAFruitTests */,
+				33ECDE201CFB3B0A003A35BD /* PickAFruitUITests */,
+				33ECDDFF1CFB3B0A003A35BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33ECDDFF1CFB3B0A003A35BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33ECDDFE1CFB3B0A003A35BD /* PickAFruit.app */,
+				33ECDE121CFB3B0A003A35BD /* PickAFruitTests.xctest */,
+				33ECDE1D1CFB3B0A003A35BD /* PickAFruitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33ECDE001CFB3B0A003A35BD /* PickAFruit */ = {
+			isa = PBXGroup;
+			children = (
+				33ECDE011CFB3B0A003A35BD /* AppDelegate.swift */,
+				33ECDE031CFB3B0A003A35BD /* ViewController.swift */,
+				33ECDE051CFB3B0A003A35BD /* Main.storyboard */,
+				33ECDE081CFB3B0A003A35BD /* Assets.xcassets */,
+				33ECDE0A1CFB3B0A003A35BD /* LaunchScreen.storyboard */,
+				33ECDE0D1CFB3B0A003A35BD /* Info.plist */,
+			);
+			path = PickAFruit;
+			sourceTree = "<group>";
+		};
+		33ECDE151CFB3B0A003A35BD /* PickAFruitTests */ = {
+			isa = PBXGroup;
+			children = (
+				33ECDE161CFB3B0A003A35BD /* PickAFruitTests.swift */,
+				33ECDE181CFB3B0A003A35BD /* Info.plist */,
+			);
+			path = PickAFruitTests;
+			sourceTree = "<group>";
+		};
+		33ECDE201CFB3B0A003A35BD /* PickAFruitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33ECDE211CFB3B0A003A35BD /* PickAFruitUITests.swift */,
+				33ECDE231CFB3B0A003A35BD /* Info.plist */,
+			);
+			path = PickAFruitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33ECDDFD1CFB3B0A003A35BD /* PickAFruit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECDE261CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruit" */;
+			buildPhases = (
+				33ECDDFA1CFB3B0A003A35BD /* Sources */,
+				33ECDDFB1CFB3B0A003A35BD /* Frameworks */,
+				33ECDDFC1CFB3B0A003A35BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickAFruit;
+			productName = PickAFruit;
+			productReference = 33ECDDFE1CFB3B0A003A35BD /* PickAFruit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33ECDE111CFB3B0A003A35BD /* PickAFruitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECDE291CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruitTests" */;
+			buildPhases = (
+				33ECDE0E1CFB3B0A003A35BD /* Sources */,
+				33ECDE0F1CFB3B0A003A35BD /* Frameworks */,
+				33ECDE101CFB3B0A003A35BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECDE141CFB3B0A003A35BD /* PBXTargetDependency */,
+			);
+			name = PickAFruitTests;
+			productName = PickAFruitTests;
+			productReference = 33ECDE121CFB3B0A003A35BD /* PickAFruitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33ECDE1C1CFB3B0A003A35BD /* PickAFruitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33ECDE2C1CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruitUITests" */;
+			buildPhases = (
+				33ECDE191CFB3B0A003A35BD /* Sources */,
+				33ECDE1A1CFB3B0A003A35BD /* Frameworks */,
+				33ECDE1B1CFB3B0A003A35BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33ECDE1F1CFB3B0A003A35BD /* PBXTargetDependency */,
+			);
+			name = PickAFruitUITests;
+			productName = PickAFruitUITests;
+			productReference = 33ECDE1D1CFB3B0A003A35BD /* PickAFruitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33ECDDF61CFB3B0A003A35BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					33ECDDFD1CFB3B0A003A35BD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					33ECDE111CFB3B0A003A35BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33ECDDFD1CFB3B0A003A35BD;
+					};
+					33ECDE1C1CFB3B0A003A35BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 33ECDDFD1CFB3B0A003A35BD;
+					};
+				};
+			};
+			buildConfigurationList = 33ECDDF91CFB3B0A003A35BD /* Build configuration list for PBXProject "PickAFruit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33ECDDF51CFB3B09003A35BD;
+			productRefGroup = 33ECDDFF1CFB3B0A003A35BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33ECDDFD1CFB3B0A003A35BD /* PickAFruit */,
+				33ECDE111CFB3B0A003A35BD /* PickAFruitTests */,
+				33ECDE1C1CFB3B0A003A35BD /* PickAFruitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33ECDDFC1CFB3B0A003A35BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECDE0C1CFB3B0A003A35BD /* LaunchScreen.storyboard in Resources */,
+				33ECDE091CFB3B0A003A35BD /* Assets.xcassets in Resources */,
+				33ECDE071CFB3B0A003A35BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE101CFB3B0A003A35BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE1B1CFB3B0A003A35BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33ECDDFA1CFB3B0A003A35BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECDE041CFB3B0A003A35BD /* ViewController.swift in Sources */,
+				33ECDE021CFB3B0A003A35BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE0E1CFB3B0A003A35BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECDE171CFB3B0A003A35BD /* PickAFruitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ECDE191CFB3B0A003A35BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECDE221CFB3B0A003A35BD /* PickAFruitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33ECDE141CFB3B0A003A35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ECDDFD1CFB3B0A003A35BD /* PickAFruit */;
+			targetProxy = 33ECDE131CFB3B0A003A35BD /* PBXContainerItemProxy */;
+		};
+		33ECDE1F1CFB3B0A003A35BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33ECDDFD1CFB3B0A003A35BD /* PickAFruit */;
+			targetProxy = 33ECDE1E1CFB3B0A003A35BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33ECDE051CFB3B0A003A35BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ECDE061CFB3B0A003A35BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33ECDE0A1CFB3B0A003A35BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33ECDE0B1CFB3B0A003A35BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33ECDE241CFB3B0A003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33ECDE251CFB3B0A003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33ECDE271CFB3B0A003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickAFruit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33ECDE281CFB3B0A003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickAFruit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33ECDE2A1CFB3B0A003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickAFruitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickAFruit.app/PickAFruit";
+			};
+			name = Debug;
+		};
+		33ECDE2B1CFB3B0A003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickAFruitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickAFruit.app/PickAFruit";
+			};
+			name = Release;
+		};
+		33ECDE2D1CFB3B0A003A35BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickAFruitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickAFruit;
+			};
+			name = Debug;
+		};
+		33ECDE2E1CFB3B0A003A35BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickAFruitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = skyrr.PickAFruitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickAFruit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33ECDDF91CFB3B0A003A35BD /* Build configuration list for PBXProject "PickAFruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECDE241CFB3B0A003A35BD /* Debug */,
+				33ECDE251CFB3B0A003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33ECDE261CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECDE271CFB3B0A003A35BD /* Debug */,
+				33ECDE281CFB3B0A003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33ECDE291CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECDE2A1CFB3B0A003A35BD /* Debug */,
+				33ECDE2B1CFB3B0A003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33ECDE2C1CFB3B0A003A35BD /* Build configuration list for PBXNativeTarget "PickAFruitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33ECDE2D1CFB3B0A003A35BD /* Debug */,
+				33ECDE2E1CFB3B0A003A35BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33ECDDF61CFB3B0A003A35BD /* Project object */;
+}
